@@ -29,6 +29,7 @@ Thumbs.db
 # Never commit real application.properties or YAML with secrets
 src/main/resources/application.properties
 src/main/resources/application.yml
+src/main/resources/application.yaml
 
 # Environment-based configs — ignore real ones
 src/main/resources/application-dev.yml
