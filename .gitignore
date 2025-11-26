@@ -1,0 +1,51 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/dependency-reduced-pom.xml
+.mvn/timing.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Eclipse Files ###
+.settings/
+.classpath
+.project
+
+### Spring Boot ###
+# Never commit real application.properties or YAML with secrets
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Environment-based configs — ignore real ones
+src/main/resources/application-dev.yml
+src/main/resources/application-prod.yml
+src/main/resources/application-test.yml
+
+# Ignore H2 or other local DB files
+*.db
+
+### Build ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Others ###
+*.cache
+*.tmp
+*.swp
+*.swo
